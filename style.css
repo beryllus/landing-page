@@ -167,3 +167,12 @@ header h1 img {
     font-weight: bold;
     cursor: pointer;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e88117;
+    padding: 30px 0;
+    color: #fff;
+}
