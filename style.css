@@ -123,7 +123,7 @@ header h1 img {
 }
 
 .quote-section {
-    padding: 100px 200px 50px;
+    padding: 100px 200px;
     background-color: #f8506a;
     color: #F9FAF8;
     display: flex;
@@ -142,4 +142,28 @@ header h1 img {
     font-size: 18px;
     margin-right: 10px;
     font-weight: bold;
+}
+
+.call-section {
+    padding: 100px 150px;
+}
+
+.call-section .card {
+    background-color: #f8506a;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.call-section .card button {
+    background-color: #f8506a;
+    padding: 10px 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
 }
